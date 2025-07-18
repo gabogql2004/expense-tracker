@@ -1,0 +1,132 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+    color: #2b2d42;
+}
+
+.transaction-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.transaction-controls input,
+.transaction-controls select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.transaction-controls button {
+    padding: 10px 15px;
+    background: #06d6a0;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.transaction-controls button:hover {
+    background: #04bfa0;
+}
+
+.summary {
+    margin: 20px 0;
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.summary h2 {
+    margin-bottom: 5px;
+}
+
+.transaction-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.transaction {
+    background: #edf2f4;
+    border-left: 5px solid #06d6a0;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+}
+
+.transaction.expense {
+    border-left-color: #ef233c;
+}
+
+.transaction p {
+    margin-bottom: 5px;
+}
+
+.transaction button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #ef233c;
+}
+
+.clear-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #ef233c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.clear-btn:hover {
+    background: #d90429;
+}
+
+footer {
+    margin-top: 20px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+

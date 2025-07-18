@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💰 Expense Tracker</h1>
+        </header>
+        <main>
+            <div class="transaction-controls">
+                <input type="text" id="description" placeholder="Description..." />
+                <input type="number" id="amount" placeholder="Amount (+income, -expense)" />
+                <select id="category">
+                    <option value="">Select Category</option>
+                    <option value="Food">Food</option>
+                    <option value="Bills">Bills</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Shopping">Shopping</option>
+                    <option value="Other">Other</option>
+                </select>
+                <button id="addTransactionBtn">Add Transaction</button>
+            </div>
+
+            <div class="summary">
+                <h2>Balance: <span id="balance">$0.00</span></h2>
+                <p>Income: <span id="income">$0.00</span> | Expenses: <span id="expenses">$0.00</span></p>
+            </div>
+
+            <div class="transaction-list" id="transactionList"></div>
+
+            <button id="clearAllBtn" class="clear-btn">Clear All Transactions</button>
+        </main>
+        <footer>
+            <p>© 2025 Nexora Technologies</p>
+        </footer>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+

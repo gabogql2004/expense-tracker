@@ -5,7 +5,7 @@ A responsive Expense Tracker web application that helps users manage their incom
 ---
 
 ## 🚀 Live Demo
-🔗 [View Live on Netlify](https://your-netlify-link.netlify.app) *(link will be added after deployment)*
+🔗 [View Live on Netlify](https://your-netlify-link.netlify.app)
 
 ---
 
@@ -34,7 +34,7 @@ A responsive Expense Tracker web application that helps users manage their incom
 ---
 
 ## 👩‍💻 Author
-**Maria Labrador** 
+**Gabriel Quijada** 
 Frontend Developer | Business Consultant | Data Enthusiast 
 🔗 [LinkedIn](https://linkedin.com/in/your-profile)
 

@@ -5,7 +5,7 @@ A responsive Expense Tracker web application that helps users manage their incom
 ---
 
 ## 🚀 Live Demo
-🔗 [View Live on Netlify](https://your-netlify-link.netlify.app)
+🔗 [View Live on Netlify](https://finances-expense-tracker.netlify.app/)
 
 ---
 
@@ -29,13 +29,11 @@ A responsive Expense Tracker web application that helps users manage their incom
 ---
 
 ## 📎 GitHub Repository
-🔗 [View Code on GitHub](https://github.com/your-username/expense-tracker)
+🔗 [View Code on GitHub](https://github.com/gabogql2004/expense-tracker)
 
 ---
 
 ## 👩‍💻 Author
 **Gabriel Quijada** 
 Frontend Developer 
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)
-
-
+🔗 [LinkedIn](https://www.linkedin.com/in/gabriel-quijada-a8a131362/)

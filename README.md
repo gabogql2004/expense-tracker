@@ -35,7 +35,7 @@ A responsive Expense Tracker web application that helps users manage their incom
 
 ## 👩‍💻 Author
 **Gabriel Quijada** 
-Frontend Developer | Business Consultant | Data Enthusiast 
+Frontend Developer 
 🔗 [LinkedIn](https://linkedin.com/in/your-profile)
 
 
